@@ -1,0 +1,19 @@
+header{
+    background: green;
+    display: flex;
+    width: 100%;
+}
+
+.burger{
+    margin-left: auto;
+}
+
+body{
+
+}
+
+main{
+    position: absolute;
+    width: 76%;
+    left: 40%;
+}
