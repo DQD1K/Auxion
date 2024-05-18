@@ -5,7 +5,7 @@ import Mainpage from "./components/main_page";
 import Registr from "./components/registration_page";
 import Navigation from "./components/navigation";
 import Header from "./components/components1,1/Header"
-
+import Account from "./components/account_page"
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Mainpage />} />
             <Route path="/registration" element={<Registr />} />
-
+            <Route path="/account" element={<Account />} />
           </Routes>
         </div>
       </Router>
