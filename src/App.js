@@ -6,7 +6,7 @@ import Registr from "./components/registration_page";
 import Navigation from "./components/navigation";
 import Header from "./components/components1,1/Header"
 import Account from "./components/account_page"
-
+import Auth from "./components/authtorization_page"
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
             <Route path="/" element={<Mainpage />} />
             <Route path="/registration" element={<Registr />} />
             <Route path="/account" element={<Account />} />
+            <Route path="/authtorization" element={<Auth />} />
           </Routes>
         </div>
       </Router>
