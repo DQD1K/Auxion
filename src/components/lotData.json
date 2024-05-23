@@ -1,0 +1,11 @@
+{
+    "objects":[
+        {
+            "id": "O1",
+            "name": "name_of_object",
+            "description": "description",
+            "cost": 100,
+            "bid": 10
+        }
+    ]
+}

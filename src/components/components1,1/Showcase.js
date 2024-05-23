@@ -1,23 +1,24 @@
 import React from "react"
 
-
-function Show(){
+const Show = ({ objects }) =>{
     return(
         <div>
-             <div>
-                    <ul>
-                        <li>
-                        <p>Название лота 1</p>
-                        <p>Свойства лота</p>
-                        </li>
-                        <li>
-                        <p>Название лота 2</p>
-                        <p>Свойства лота</p>           
-                        </li>
-                    </ul>
-                </div>
+             <h1>Доступные лоты</h1>
+            <ul>
+                {objects.map(object => (
+                    <li key={object.id}>
+                    <div>
+                        <p>{object.name}</p>
+                        <p>{object.description}</p>
+                        <p>Cost: {object.cost}</p>
+                        <p>Bid: {object.bid}</p>
+                    </div>
+                    </li>
+                ))}
+            </ul>
         </div>
     );
 }
+
 
 export default Show

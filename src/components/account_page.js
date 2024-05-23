@@ -1,16 +1,14 @@
 import React from "react";
+import ShowAccountInfo from "./components1,1/ShowAccountInfo";
+import userData from "./superUserData.json"
 
 function Account_page(){
     return(
         <div>
-            <h2>Ваша страница</h2>
-            <p>фото пользователя</p>
-            <p>Имя пользователя</p>
-            <p>почта пользователя</p>
-            <p>Список выших лотов:</p>
-            <p>Список аукционов в котором вы поучавствовали</p>
+            <ShowAccountInfo users={userData.users} />
         </div>
     )
 }
+ 
 
 export default Account_page;

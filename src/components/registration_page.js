@@ -1,17 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
+import RegistrForm from "./components1,1/registrationForm"
 
-
-function registr(){
-    return(
+function Registr() {
+    const [users, setUsers] = useState({
+        users: []
+      });
+    
+      const handleRegister = (userData) => {
+        setUsers({
+          users: [...users.users, userData]
+        });
+      };
+    
+      // Преобразование пользователей в JSON
+      const usersJson = JSON.stringify(users, null, 2);
+    
+      return (
         <div>
-            <h2>Страница регистрации</h2>
-            <input defaultValue={"Введите Имя"}></input>
-            <input defaultValue={"Введите почту"}></input>
-            <input defaultValue={"Введите пароль"}></input>
-            <button>Создать аккаунт</button>
+          <h1>Registration Page</h1>
+          <RegistrForm onRegister={handleRegister} />
+          <h2>Registered Users:</h2>
+          <pre>{usersJson}</pre>
         </div>
-    )
+      );
 }
 
-
-export default registr;
+export default Registr;

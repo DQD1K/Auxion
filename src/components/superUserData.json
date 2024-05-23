@@ -1,0 +1,26 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "user1",
+        "email": "user1@example.com",
+        "password": "hashedpassword1",
+        "fullName": "User One",
+        "avatar": "url_to_avatar_image1.jpg",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "createdAt": "2024-05-23T12:00:00Z",
+        "updatedAt": "2024-05-23T12:00:00Z"
+      },
+      {
+        "id": 2,
+        "username": "user2",
+        "email": "user2@example.com",
+        "password": "hashedpassword2",
+        "fullName": "User Two",
+        "avatar": "url_to_avatar_image2.jpg",
+        "bio": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "createdAt": "2024-05-23T12:00:00Z",
+        "updatedAt": "2024-05-23T12:00:00Z"
+      }
+    ]
+  }
