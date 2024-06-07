@@ -21,20 +21,7 @@ function App() {
     <div>
       <Header />
 
-      <Router>
-        <div>
-          <Navigation />
-          <Routes>
-            <Route path="/" element={<Mainpage />} />
-            <Route path="/registration" element={<Registr />} />
-            <Route path="/account" element={<Account />} />
-            <Route path="/authtorization" element={<Auth />} />
-          </Routes>
-        </div>
-      </Router>
-
-
-     </div>
+    </div>
       );
 }
 
