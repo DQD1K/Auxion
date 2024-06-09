@@ -87,3 +87,12 @@ h4 {
   left: 100px;
   transform: translateX(-0%);
 }
+
+.ave_div{
+  position: absolute;
+  left: 27px;
+  top: 133px;
+  width: 461px;
+  height: 189px;
+  background-color: #E7ADA9;
+}
