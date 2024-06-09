@@ -5,6 +5,9 @@ function my_lots(){
 
 
             </div>
+
+            <div class="h3w">Текущие лоты</div>
+            <div class="h4w">Но это не надолго</div>
         </div>
 
 
